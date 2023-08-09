@@ -71,7 +71,7 @@
   color: rgb(220, 53, 69);
 }
 .secondNav {
-  padding: 5px 200px;
+  padding: 5px 8%;
 }
 .menu-bar {
   cursor: pointer;
@@ -96,4 +96,9 @@
 }
 .side-barVisible {
   left: 0%;
+}
+@media (min-width: 587px) and (max-width: 753px) {
+  .secondNav{
+    padding: auto;
+  }
 }
