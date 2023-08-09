@@ -24,9 +24,9 @@
   font-family: Lato;
   color: #d3d3d3;
 }
-.topBarItemsMob:hover{
-    color: #af3a26;
-    transition: .3s;
+.topBarItemsMob:hover {
+  color: #af3a26;
+  transition: 0.3s;
 }
 .logoName {
   font-size: 20px;
@@ -97,8 +97,71 @@
 .side-barVisible {
   left: 0%;
 }
+.about {
+  background-color: #f7f7f7;
+}
+.red-text {
+  color: #f93a1f;
+}
+.firstLine {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.secondLine {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 30px;
+  margin-top: 5px;
+}
+.boxShadow {
+  box-shadow: inset 0px 2px 5px rgb(194, 199, 201);
+}
+.about-des {
+  padding: 20px;
+  border: 3px solid #ffffff;
+  margin-top: 30px;
+  font-weight: 600;
+  background-color: #f7f7f7;
+}
+.todaysDate {
+  color: #414141;
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.location {
+  color: #414141;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+}
 @media (min-width: 587px) and (max-width: 753px) {
-  .secondNav{
+  .secondNav {
     padding: auto;
+  }
+}
+@media (min-width: 587px) {
+  .about {
+    padding: 5%;
+    padding-left: 10%;
+  }
+  .about-des {
+    width: 75%;
+  }
+}
+@media (max-width: 585px) {
+  .fullPage {
+    background-color: #f7f7f7;
+  }
+  .boxShadow {
+    box-shadow: none;
+  }
+  .topSecondBars {
+    margin-top: 10%;
+  }
+  .about-des {
+    margin-top: 30px;
   }
 }
