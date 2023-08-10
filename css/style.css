@@ -55,7 +55,9 @@
   font-size: 30px;
   font-weight: 600;
   color: #f93a1f;
-  margin-left: 20px;
+  margin-left: 20px;  
+  border-bottom: 1px solid rgb(255, 255, 255);
+
   transition: 0.3s;
   cursor: pointer;
 }
@@ -193,14 +195,14 @@
 }
 .join {
   width: fit-content;
-  padding: 20px;
+  padding: 40px;
   color: #d3d3d3;
   background-color: #f93a1f;
-  margin-bottom: 40em;
+  margin-bottom: 40px;
 }
-.ajus {
+/* .ajus 
   height: ;
-}
+} */
 @media (min-width: 587px) and (max-width: 753px) {
   .secondNav {
     padding: auto;
