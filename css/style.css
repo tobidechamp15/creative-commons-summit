@@ -55,7 +55,7 @@
   font-size: 30px;
   font-weight: 600;
   color: #f93a1f;
-  margin-left: 20px;  
+  margin-left: 20px;
   border-bottom: 1px solid rgb(255, 255, 255);
 
   transition: 0.3s;
@@ -200,9 +200,54 @@
   background-color: #f93a1f;
   margin-bottom: 40px;
 }
-/* .ajus 
-  height: ;
-} */
+.featuredSpeaker {
+}
+.speakerImage {
+  width: 100px;
+  height: 100px;
+}
+.speakMain {
+  font-size: 20px;
+  font-family: Lato;
+  line-height: 20px;
+  font-weight: 600;
+}
+.speakline {
+  width: 30px;
+  height: 2px;
+  background-color: #b4b1b1;
+}
+.abt-speaker {
+  font-size: 12px;
+  font-style: italic;
+}
+.speakerName {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #424141;
+  line-height: 18px;
+}
+.arrDown {
+  width: 20px;
+}
+.view-more {
+  padding: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #424141;
+  cursor: pointer;
+}
+.view-less {
+  padding: 15px;
+  margin-top: 50px;
+  border: 1px solid #414141;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.rotate {
+  transform: rotate(180deg);
+}
+
 @media (min-width: 587px) and (max-width: 753px) {
   .secondNav {
     padding: auto;
@@ -223,6 +268,9 @@
   .programs {
     height: 270px !important;
   }
+  .speakerSecSect {
+    display: flex;
+  }
 }
 @media (max-width: 585px) {
   .fullPage {
@@ -236,5 +284,8 @@
   }
   .about-des {
     margin-top: 30px;
+  }
+  .displayNone {
+    display: none;
   }
 }
