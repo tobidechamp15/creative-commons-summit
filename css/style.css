@@ -200,8 +200,6 @@
   background-color: #f93a1f;
   margin-bottom: 40px;
 }
-.featuredSpeaker {
-}
 .speakerImage {
   width: 100px;
   height: 100px;
@@ -247,6 +245,11 @@
 .rotate {
   transform: rotate(180deg);
 }
+.speakerDes{
+  font-size: 15px;
+  font-weight: 600;
+  color: #424141;
+}
 
 @media (min-width: 587px) and (max-width: 753px) {
   .secondNav {
@@ -270,6 +273,7 @@
   }
   .speakerSecSect {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 585px) {
@@ -286,6 +290,6 @@
     margin-top: 30px;
   }
   .displayNone {
-    display: none;
+    display: none !important;
   }
 }
