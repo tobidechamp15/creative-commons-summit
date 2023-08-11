@@ -5,6 +5,7 @@ const secondSection = document.querySelector(".speakerSecSect");
 const viewMore = document.querySelector(".view-more");
 const viewLess = document.querySelector(".view-less");
 const width = window.innerWidth;
+  viewLess.style.display = "none";
 
 if (width <= 587) {
   secondSection.style.display = "none";
