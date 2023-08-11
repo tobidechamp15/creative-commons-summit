@@ -262,6 +262,12 @@
 .partnerImg{
   height: 40px;
 }
+.ccKorea{
+  color: #706f6f;
+  font-size: 19px;
+  font-family: Lato;
+  font-weight: 700;
+}
 @media (min-width: 587px) and (max-width: 753px) {
   .secondNav {
     padding: auto;
