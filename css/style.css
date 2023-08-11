@@ -250,7 +250,18 @@
   font-weight: 600;
   color: #424141;
 }
-
+.partnerText{
+  font-size: 30px;
+  font-weight: 600;
+  color: #f7f7f7;
+}
+.patner{
+  background:#414141!important ;
+  padding: 50px;
+}
+.partnerImg{
+  height: 40px;
+}
 @media (min-width: 587px) and (max-width: 753px) {
   .secondNav {
     padding: auto;
