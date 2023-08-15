@@ -1,3 +1,4 @@
+window.addEventListener("resize", handleResize);
 const sideBar = document.querySelector(".side-bar");
 const menuBar = document.querySelector(".menu-bar");
 const closeBtn = document.querySelector(".close");
@@ -5,12 +6,13 @@ const secondSection = document.querySelector(".speakerSecSect");
 const viewMore = document.querySelector(".view-more");
 const viewLess = document.querySelector(".view-less");
 const width = window.innerWidth;
-  viewLess.style.display = "none";
-
-if (width <= 587) {
-  secondSection.style.display = "none";
-} else {
-  secondSection.style.display="flex"
+viewLess.style.display = "none";
+function handleResize() {
+  if (width <= 587) {
+    secondSection.style.display = "none";
+  } else if (width >= 587) {
+    secondSection.style.display = "flex";
+  }
 }
 menuBar.addEventListener("click", () => {
   console.log("object");

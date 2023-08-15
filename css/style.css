@@ -289,7 +289,7 @@
     height: 270px !important;
   }
   .speakerSecSect {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
   }
 }
