@@ -10,9 +10,10 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous" />
     <link
-      href="https://fonts.googleapis.com/css?family=Crete Round|Lato|COCOGOOSE|Inter"
+      href="https://fonts.googleapis.com/css?family=Crete Round|Lato|Cocogoose|Inter|Roboto"
       rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/about.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -55,7 +56,7 @@
           <div class="menu-line"></div>
         </div>
       </div>
-      <section class="d-sm-flex d-none flex-column">
+      <section class="d-sm-flex d-none flex-column fixed-bar">
         <div class="topBar d-sm-flex p-2 w-100 justify-content-between">
           <div></div>
           <div class="d-flex justify-content-end gap-3 me-5 w-100">
@@ -75,10 +76,10 @@
             <div
               class="topSecondBar d-flex align-items-center justify-content-between gap-2">
               <span class="text-danger">About</span>
-              <span>Program</span>
-              <span>Join</span>
-              <span>Sponsor</span>
-              <span>News</span>
+              <span class="toProgram">Program</span>
+              <span class="toJoin">Join</span>
+              <span class="toSponosor">Sponsor</span>
+              <span class="toNews">News</span>
             </div>
             <div class="campaignBtn d-flex align-items-center">CC Campaign</div>
           </div>
@@ -171,9 +172,9 @@
         <span class="speakMain">Featured Speakers</span>
         <span class="textLine"></span>
       </div>
-      <div class="d-flex flex-column flex-sm-row">
+      <div class="d-flex flex-column flex-sm-row gap-3">
         <div class="d-flex flex-column gap-4">
-          <section class="d-flex gap-3 align-items-start">
+          <section class="d-flex gap-3 singleSpeaker align-items-start">
             <img
               src="assets/mobAssets/yochai benkler.jpg"
               class="speakerImage" />
@@ -190,7 +191,7 @@
               >
             </div>
           </section>
-          <section class="d-flex gap-3 align-items-start">
+          <section class="d-flex gap-3 singleSpeaker align-items-start">
             <img src="assets/mobAssets/heoun.jpg" class="speakerImage" />
             <div class="d-flex flex-column gap-1">
               <span class="speakerName">Sohyeoung Noh </span>
@@ -206,7 +207,7 @@
               >
             </div>
           </section>
-          <section class="d-flex gap-3 align-items-censtartter">
+          <section class="d-flex gap-3 singleSpeaker align-items-censtartter">
             <img src="assets/mobAssets/lila.jpg" class="speakerImage" />
             <div class="d-flex flex-column gap-1">
               <span class="speakerName">Lila Tretikov</span>
@@ -225,7 +226,7 @@
         </div>
 
         <div class="speakerSecSect flex-column mt-3 mt-sm-0 gap-4">
-          <section class="d-flex gap-3 align-items-start">
+          <section class="d-flex gap-3 singleSpeaker align-items-start">
             <img src="assets/mobAssets/chon.jpg" class="speakerImage" />
             <div class="d-flex flex-column gap-1">
               <span class="speakerName">Kilnam Chon</span>
@@ -238,7 +239,7 @@
               >
             </div>
           </section>
-          <section class="d-flex gap-3 align-items-start">
+          <section class="d-flex gap-3 singleSpeaker align-items-start">
             <img src="assets/mobAssets/leda.jpg" class="speakerImage" />
             <div class="d-flex flex-column gap-1">
               <span class="speakerName">Julia Leda</span>
@@ -254,7 +255,7 @@
               >
             </div>
           </section>
-          <section class="d-flex gap-3 align-items-start">
+          <section class="d-flex gap-3 singleSpeaker align-items-start">
             <img src="assets/mobAssets/ryan.jpg" class="speakerImage" />
             <div class="d-flex flex-column gap-1">
               <span class="speakerName">Ryan Merkley</span>
@@ -281,21 +282,62 @@
         </section>
       </div>
     </section>
-    <section class="d-flex align-items-center flex-column justify-content-center patner">
+    <div class="about-us w-100">
+      <div
+        class="d-flex flex-column w-100 justify-content-center align-items-center">
+        <span class="red-text name">CREATIVE COMMONS</span>
+        <span class="red-text name">GLOBAL SUMMIT 2015</span>
+        <span class="textLine mt-3"></span>
+      </div>
+      <div class="d-flex flex-column about-usDes">
+        <span class="text-center"
+          >The Global Summit brings together the community of exports,academics
+          and activists who comprise the Creative Commons affiliate networks in
+          a different country every two years.</span
+        >
+        <span class="text-center"
+          >This year, we hope to expand our invitation list including
+          organization and individuals who want to work with us on shared
+          projects that advance the cause of the Commons, free culture and open
+          knowledge.</span
+        >
+        <span class="text-center"
+          >So if you're active and engaged in the worlds of open content and
+          knowledge - free software advocates. Wikipedians, Open Knowledge,
+          galleries, libraries, museums, archives, government an foundations,
+          lawyers, and activists - we hope you'll consider joining us this year
+          to build a stronger, more vibrant commons together.
+        </span>
+      </div>
+      <div class="d-flex justify-content-center flex-column align-items-center mt-5 pt-5">
+        <span class="please">Please contact us per Email for any further questions about CC Global Summit 2015!</span>
+        <span class="email">ccsummit2015@cckorea.org</span>
+      </div>
+    </div>
+    <div
+      class="d-flex flex-column justify-content-center align-items-center gap-3 mt-5 pt-3 mb-5">
+      <span class="names"> Creative Commons Global Summit 2015 Logo </span>
+      <span class="textLine"></span>
+    </div>
+
+    <section
+      class="d-flex align-items-center flex-column justify-content-center patner">
       <div class="mb-5 d-flex align-items-center flex-column">
         <span class="partnerText">Partner</span>
         <div class="textLine"></div>
       </div>
-      <div class="d-flex flex-wrap align-items-center justify-content-center gap-3">
-        <img src="assets/mobAssets/Mozilla.png" class="partnerImg">
-        <img src="assets/mobAssets/google.png" class="partnerImg">
-        <img src="assets/mobAssets/daumkaokao.jpg" class="partnerImg">
-        <img src="assets/mobAssets/air.png" class="partnerImg">
+      <div
+        class="d-flex flex-wrap align-items-center justify-content-center gap-3">
+        <img src="assets/mobAssets/Mozilla.png" class="partnerImg" />
+        <img src="assets/mobAssets/google.png" class="partnerImg" />
+        <img src="assets/mobAssets/daumkaokao.jpg" class="partnerImg" />
+        <img src="assets/mobAssets/air.png" class="partnerImg" />
       </div>
     </section>
-    <section class="d-flex gap-4 p-5 flex-sm-row flex-column align-items-center justify-content-center flex">
-    <img src="assets/mobAssets/logo.png" class="partnerImg">
-      <div class="d-flex flex-column  gap-1">
+    <section
+      class="d-flex gap-4 p-5 flex-sm-row flex-column align-items-center justify-content-center flex">
+      <img src="assets/mobAssets/logo.png" class="partnerImg" />
+      <div class="d-flex flex-column gap-1">
         <span class="ccKorea"> 2015 Creative Commons Korea.</span>
         <span class="ccKorea">Some Rights Reserved.</span>
       </div>
@@ -305,5 +347,6 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/about.js"></script>
   </body>
 </html>

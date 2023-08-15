@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  font-family: Lato;
+}
+@media (min-width: 587px) {
+  .about {
+    padding: 5%;
+    padding-left: 10%;
+    margin-top: 106px;
+    height: 100vh !important;
+  }
+  .about-us {
+    padding: 5%;
+    padding-left: 10%;
+    margin-top: 106px;
+    height: 100vh !important;
+    background: #ddd9d9;
+  }
+  .secondLine {
+    font-size: 90px;
+    line-height: 70px;
+  }
+  .name {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Roboto;
+  }
+  .names{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .email{
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  .please{
+    font-size: 15px;
+    color:#888685 ;
+    font-weight: 600;
+  }
+  .about-des {
+    width: 75%;
+  }
+  .programs {
+    width: fit-content;
+    /* height: fit-content; */
+  }
+  .programs {
+    height: 270px !important;
+  }
+  .speakerSecSect {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .fixed-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .secondNav {
+    background: #fff;
+  }
+  .featuredSpeaker {
+    height: 100vh;
+  }
+  .singleSpeaker {
+    max-width: 800px !important ;
+  }
+  .speakerDes {
+    font-size: 12px !important;
+  }
+  .about-usDes {
+    text-align: center !important;
+    padding: 30px;
+    margin-top: 30px;
+    border: #c4bfbf 2px solid;
+    background-color: #fff;
+  }
+  .about-usDes span {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 700px) {
+  .topSecondBar {
+    gap: 30px !important;
+  }
+}
+@media (min-width: 575px) and (max-width: 699px) {
+  .topSecondBar {
+    display: none !important;
+  }
+}
