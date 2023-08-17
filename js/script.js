@@ -34,3 +34,5 @@ viewLess.addEventListener("click", () => {
   viewMore.style.display = "flex";
   viewLess.style.display = "none";
 });
+
+console.log("object")

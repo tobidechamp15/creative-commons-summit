@@ -4,3 +4,10 @@ toProgram.addEventListener("click", function () {
   section.scrollIntoView({ behavior: "smooth" });
   console.log("clikkk");
 });
+
+const toAbout = document.querySelector(".toAbout");
+toAbout.addEventListener("click", function () {
+  var section = document.querySelector(".name-logo");
+  section.scrollIntoView({ behavior: "smooth" });
+  console.log("clikkk");
+});
