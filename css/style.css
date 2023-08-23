@@ -10,6 +10,10 @@
 .topBar {
   background-color: #272a31;
 }
+.name-logo{
+  padding-top: 104px !important;
+
+}
 .topBarItems {
   font-size: 12px;
   font-weight: 400;

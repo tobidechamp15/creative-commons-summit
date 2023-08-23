@@ -11,3 +11,9 @@ toAbout.addEventListener("click", function () {
   section.scrollIntoView({ behavior: "smooth" });
   console.log("clikkk");
 });
+
+// Add animation to section .toAbout
+var aboutSection = document.getElementById("aboutMe"); // Get the element with id="demo".
+window.onscroll = function () {
+  myFunction();
+}; // Run every time you scroll and check if it's in view or not, then
