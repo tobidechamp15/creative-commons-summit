@@ -28,6 +28,7 @@
   cursor: pointer;
   font-family: Lato;
   color: #d3d3d3;
+
 }
 .topBarItemsMob:hover {
   color: #af3a26;
@@ -172,7 +173,7 @@
 }
 .programs {
   background: #8c8d9160;
-  /* height: 200px; */
+
   width: 90%;
   color: #f7f7f7;
 }
@@ -287,13 +288,11 @@
   }
   .programs {
     width: fit-content;
-    /* height: fit-content; */
   }
   .programs {
     height: 270px !important;
   }
   .speakerSecSect {
-    /* display: flex; */
     flex-wrap: wrap;
   }
 }
